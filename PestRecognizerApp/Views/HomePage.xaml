@@ -1,0 +1,33 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="PestRecognizerApp.Views.HomePage"
+             Title="Home"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="#538083">
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         HorizontalOptions="CenterAndExpand">
+        <Image Source="ic_analysis_2.png"
+               HeightRequest="120"
+               WidthRequest="120"/>
+        <Label Text="Bem-vindo ao"
+               TextColor="White"
+               Margin="0,20,0,0"
+               FontSize="18"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"/>
+        <Label Text="Reconhecedor de pragas"
+               FontFamily="OpenSansSemibold"
+               TextColor="White"
+               Margin="0,0,0,30"
+               FontSize="20"
+               VerticalOptions="Center" 
+               HorizontalOptions="Center"/>
+        <Button BackgroundColor="#456C6F"
+                FontSize="16"
+                FontFamily="OpenSansSemibold"
+                TextColor="White"
+                Text="Escanear"
+                Clicked="ShowCameraOrGalleryBottomSheet_Clicked"/>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<the49:BottomSheet xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:the49="https://schemas.the49.com/dotnet/2023/maui"
+             x:Class="PestRecognizerApp.Views.CameraOrGalleryBottomSheet"
+             BackgroundColor="White"
+             Padding="32">
+    <VerticalStackLayout>
+        <Label Text="Para que a análise seja feita, tire uma foto da planta ou selecione da galeria."
+               TextColor="#343a40"
+               FontSize="12"
+               HorizontalTextAlignment="Center"/>
+        <Grid HorizontalOptions="CenterAndExpand"
+              Margin="0,26,0,0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Frame Grid.Column="0"
+                   CornerRadius="10"
+                   BackgroundColor="#f8f9fa"
+                   BorderColor="#e9ecef"
+                   Margin="0,0,16,0">
+                <VerticalStackLayout>
+                    <ImageButton Source="ic_camera_darkgray.png"
+                                 HeightRequest="16"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="CameraButton_Clicked"/>
+                    <Label Text="Câmera"
+                           Margin="0,10,0,0"
+                           FontFamily="OpenSansSemibold"
+                           HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+            <Frame Grid.Column="1"
+                   CornerRadius="10"
+                   BackgroundColor="#f8f9fa"
+                   BorderColor="#e9ecef"
+                   Margin="16,0,0,0">
+                <VerticalStackLayout>
+                    <ImageButton Source="ic_gallery_darkgray.png"
+                                 HeightRequest="16"
+                                 HorizontalOptions="Center"
+                                 VerticalOptions="Center"
+                                 Clicked="GalleryButton_Clicked"/>
+                    <Label Text="Galeria"
+                           Margin="0,10,0,0"
+                           FontFamily="OpenSansSemibold"
+                           HorizontalTextAlignment="Center"/>
+                </VerticalStackLayout>
+            </Frame>
+        </Grid>
+    </VerticalStackLayout>
+</the49:BottomSheet>
