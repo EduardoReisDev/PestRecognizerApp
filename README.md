@@ -1,7 +1,6 @@
 # PestRecognizerApp
-Application developed in .NET MAUI (iOS and Android) consuming Azure CustomVision. 
 
-Aplicativo desenvolvido em Xamarin.Forms (iOS e Android) com CustomVision para reconhecimento de imagem. :seedling: :bug: :mag: :iphone:
+Application developed in .NET MAUI (iOS and Android) using Azure CustomVision to recognize plants attacked by pests. 🌱 🐛 🔍 📱
 
 ![image](https://user-images.githubusercontent.com/52722526/160287168-eed0cd3b-4da4-413b-a1d7-4d6361108fcd.png)
 
