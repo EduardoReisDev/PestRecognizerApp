@@ -2,8 +2,6 @@
 
 Application developed in .NET MAUI (iOS and Android) using Azure CustomVision to recognize plants attacked by pests. 🌱 🐛 🔍 📱
 
- [![GitHub stars](https://img.shields.io/github/stars/EduardoReisDev/SpaceXhistory?style=flat-square)](https://github.com/naweed/MauiTubePlayer/stargazers) [![GitHub last-commit](https://img.shields.io/github/last-commit/EduardoReisDev/SpaceXhistory?style=flat-square)](https://github.com/jameslee214/maui-premierleague/commits)
-
 #### How does Azure CustomVision work?
 
 ![image](https://user-images.githubusercontent.com/52722526/160287168-eed0cd3b-4da4-413b-a1d7-4d6361108fcd.png)
